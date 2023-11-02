@@ -221,6 +221,154 @@ body {
   }
 }
 
+.best_dental_treatment_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h5 {
+    color: $secondary-color;
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .best_dental_treatment_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    article {
+      border-radius: 15px;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      &:hover{
+        scale: 0.9;
+        transition: 0.5s ease-in-out;
+      }
+
+      .left {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+      }
+
+      img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+
+      button {
+        background-color: white;
+        padding: 1rem;
+        border-radius: 25px;
+        font-weight: $font-semi-bold;
+
+        &:hover {
+          background-color: $secondary-color;
+          transition: 1s ease-in-out;
+        }
+      }
+
+      h6 {
+        margin-bottom: 1rem;
+        font-size: $big-font-size;
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+
+      &:nth-child(2) {
+        background-color: #FEE6DC;
+      }
+
+      &:nth-child(4) {
+        background-color: #FEE6DC;
+      }
+
+      &:nth-child(1) {
+        background-color: #FEEFC1;
+      }
+
+      &:nth-child(6) {
+        background-color: #FEEFC1;
+      }
+
+      &:nth-child(3) {
+        background-color: #DFF7EA;;
+      }
+
+      &:nth-child(5) {
+        background-color: #DFF7EA;
+      }
+
+
+    }
+
+  }
+}
+
+.patient_centred_container{
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+  .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    div{
+      background-color: #FEE6DC;
+      height: 90%;
+      width: 80%;
+      border-radius: 25px;
+
+    }
+    img{
+      object-fit: contain;
+    }
+
+  }
+  .right{
+    height: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    h6{
+      color: $secondary-color;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    h2{
+      margin-bottom: 2rem;
+    }
+    span{
+      display: inline-block;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: $font-semi-bold;
+    }
+    button{
+      margin-top: 2rem;
+    }
+  }
+}
+
 
 
 

@@ -156,3 +156,127 @@ body {
 
 .dental_excellence_container .bottom div * {
   margin-bottom: 1rem; }
+
+.best_dental_treatment_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.best_dental_treatment_container h5 {
+  color: #89DB7B;
+  font-size: 0.8rem; }
+
+.best_dental_treatment_container h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem; }
+
+.best_dental_treatment_container .best_dental_treatment_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article {
+  border-radius: 15px;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.best_dental_treatment_container .best_dental_treatment_grid article:hover {
+  scale: 0.9;
+  transition: 0.5s ease-in-out; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article .left {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article img {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article button {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 25px;
+  font-weight: 600; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article button:hover {
+  background-color: #89DB7B;
+  transition: 1s ease-in-out; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article h6 {
+  margin-bottom: 1rem;
+  font-size: 2rem; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article p {
+  margin-bottom: 1rem; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article:nth-child(2) {
+  background-color: #FEE6DC; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article:nth-child(4) {
+  background-color: #FEE6DC; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article:nth-child(1) {
+  background-color: #FEEFC1; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article:nth-child(6) {
+  background-color: #FEEFC1; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article:nth-child(3) {
+  background-color: #DFF7EA; }
+
+.best_dental_treatment_container .best_dental_treatment_grid article:nth-child(5) {
+  background-color: #DFF7EA; }
+
+.patient_centred_container {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem; }
+
+.patient_centred_container .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.patient_centred_container .left div {
+  background-color: #FEE6DC;
+  height: 90%;
+  width: 80%;
+  border-radius: 25px; }
+
+.patient_centred_container .left img {
+  object-fit: contain; }
+
+.patient_centred_container .right {
+  height: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start; }
+
+.patient_centred_container .right h6 {
+  color: #89DB7B;
+  font-size: 0.8rem;
+  margin-bottom: 1rem; }
+
+.patient_centred_container .right h2 {
+  margin-bottom: 2rem; }
+
+.patient_centred_container .right span {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600; }
+
+.patient_centred_container .right button {
+  margin-top: 2rem; }
