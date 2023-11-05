@@ -248,7 +248,8 @@ body {
       overflow: hidden;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      &:hover{
+
+      &:hover {
         scale: 0.9;
         transition: 0.5s ease-in-out;
       }
@@ -318,77 +319,89 @@ body {
   }
 }
 
-.patient_centred_container{
+.patient_centred_container {
   margin-top: 10rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 2rem;
-  .left{
+
+  .left {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 
-    div{
+    div {
       background-color: #FEE6DC;
       height: 90%;
       width: 80%;
       border-radius: 25px;
 
     }
-    img{
+
+    img {
       object-fit: contain;
     }
 
   }
-  .right{
+
+  .right {
     height: 100%;
     padding: 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: start;
-    h6{
+
+    h6 {
       color: $secondary-color;
       font-size: 0.8rem;
       margin-bottom: 1rem;
     }
-    h2{
+
+    h2 {
       margin-bottom: 2rem;
     }
-    span{
+
+    span {
       display: inline-block;
       margin-top: 2rem;
       margin-bottom: 0.5rem;
       font-size: 1.2rem;
       font-weight: $font-semi-bold;
     }
-    button{
+
+    button {
       margin-top: 2rem;
     }
   }
 }
 
-.comprehensive_container{
+.comprehensive_container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5rem;
-  .left{
+
+  .left {
     width: 50%;
     padding: 2.5rem;
     height: 100%;
-    h6{
+
+    h6 {
       color: $secondary-color;
       font-size: 0.8rem;
       margin-bottom: 1rem;
     }
-    h2{
+
+    h2 {
       margin-bottom: 2rem;
     }
-    ul{
-      li{
+
+    ul {
+      li {
         margin-bottom: 1.5rem;
-        &:before{
+
+        &:before {
           content: "\2022";
           color: $secondary-color;
           font-weight: $font-bold;
@@ -396,21 +409,25 @@ body {
           width: 1rem;
           scale: 2;
         }
-        span{
+
+        span {
           font-weight: $font-bold;
         }
       }
     }
   }
+
   .right {
     width: 40%;
-    div{
+
+    div {
       background-color: #FFD687;
       border-radius: 55px;
       height: 100%;
       position: relative;
       overflow: hidden;
-      img{
+
+      img {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -419,20 +436,23 @@ body {
   }
 }
 
-.what_people_container{
+.what_people_container {
   background-image: url("../assets/img/background_image.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5rem 3rem;
-  h6{
+
+  h6 {
     margin-bottom: 0.5rem;
   }
-  h2{
+
+  h2 {
     margin-bottom: 5rem;
   }
-  .profile_pic{
+
+  .profile_pic {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -441,12 +461,14 @@ body {
     align-items: center;
     overflow: hidden;
     margin-bottom: 1.5rem;
-    img{
+
+    img {
       width: 90px;
       height: 80px;
     }
   }
-  article{
+
+  article {
     width: 50%;
     font-weight: $font-bold;
     font-size: 1.5rem;
@@ -454,7 +476,47 @@ body {
   }
 }
 
+.free_consultation_container {
+  padding: 3rem;
 
+  .box {
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset,
+                rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 25px;
+    .left{
+      width: 40%;
+    }
+    .right{
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem;
+      button{
+        width: 100%;
+      }
+      .inputs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 2rem 0;
+        input{
+          border: solid 1px #555555;
+          border-radius: 15px;
+          padding: 1rem 3rem;
+          &:hover{
+            border: solid 3px $secondary-color;
+            transition: 0.1s ease-out;
+          }
+        }
+      }
+    }
+  }
+}
 
 
 
