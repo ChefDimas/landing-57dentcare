@@ -399,3 +399,51 @@ body {
 .free_consultation_container .box .right .inputs input:hover {
   border: solid 3px #89DB7B;
   transition: 0.1s ease-out; }
+
+footer {
+  margin-top: 5rem;
+  border-top: 1px solid #1E1E1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; }
+
+footer a {
+  font-weight: 800;
+  margin-bottom: 1rem; }
+
+footer a:hover {
+  color: #89DB7B; }
+
+footer a span {
+  color: #89DB7B; }
+
+footer .links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+footer .links .address a {
+  margin-top: 1rem; }
+
+footer .links .newsletter p {
+  font-weight: 800;
+  margin-bottom: 1rem; }
+
+footer .links .newsletter input {
+  border: solid 1px #555555;
+  border-radius: 25px;
+  padding: 1rem 3rem; }
+
+footer .links .newsletter input:hover {
+  border: solid 3px #89DB7B;
+  transition: 0.1s ease-out; }
+
+footer .links div {
+  display: flex;
+  flex-direction: column; }
+
+footer .links div h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem; }
+
+footer .links div a {
+  font-weight: 400; }

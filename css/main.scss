@@ -519,6 +519,61 @@ body {
 }
 
 
+footer{
+  margin-top: 5rem;
+  border-top: 1px solid $primary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  a{
+    font-weight: $font-bold;
+    margin-bottom: 1rem;
+    &:hover{
+      color: $secondary-color;
+    }
+    span{
+      color: $secondary-color;
+    }
+  }
+  .links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .address{
+      a{
+        margin-top: 1rem;
+      }
+    }
+    .newsletter{
+      p{
+        font-weight: $font-bold;
+        margin-bottom: 1rem;
+      }
+      input{
+        border: solid 1px #555555;
+        border-radius: 25px;
+        padding: 1rem 3rem;
+        &:hover{
+          border: solid 3px $secondary-color;
+          transition: 0.1s ease-out;
+        }
+      }
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+
+      h5{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      a{
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+
 
 
 
