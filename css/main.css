@@ -283,7 +283,8 @@ body {
 
 .comprehensive_container {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 5rem; }
 
 .comprehensive_container .left {
   width: 50%;
@@ -326,3 +327,37 @@ body {
   position: absolute;
   bottom: 0;
   right: 0; }
+
+.what_people_container {
+  background-image: url("../assets/img/background_image.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem; }
+
+.what_people_container h6 {
+  margin-bottom: 0.5rem; }
+
+.what_people_container h2 {
+  margin-bottom: 5rem; }
+
+.what_people_container .profile_pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.what_people_container .profile_pic img {
+  width: 90px;
+  height: 80px; }
+
+.what_people_container article {
+  width: 50%;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 2rem; }

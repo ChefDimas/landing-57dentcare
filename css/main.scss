@@ -372,6 +372,7 @@ body {
 .comprehensive_container{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5rem;
   .left{
     width: 50%;
     padding: 2.5rem;
@@ -417,6 +418,43 @@ body {
     }
   }
 }
+
+.what_people_container{
+  background-image: url("../assets/img/background_image.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem;
+  h6{
+    margin-bottom: 0.5rem;
+  }
+  h2{
+    margin-bottom: 5rem;
+  }
+  .profile_pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    img{
+      width: 90px;
+      height: 80px;
+    }
+  }
+  article{
+    width: 50%;
+    font-weight: $font-bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
 
 
 
