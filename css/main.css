@@ -280,3 +280,49 @@ body {
 
 .patient_centred_container .right button {
   margin-top: 2rem; }
+
+.comprehensive_container {
+  display: flex;
+  justify-content: space-between; }
+
+.comprehensive_container .left {
+  width: 50%;
+  padding: 2.5rem;
+  height: 100%; }
+
+.comprehensive_container .left h6 {
+  color: #89DB7B;
+  font-size: 0.8rem;
+  margin-bottom: 1rem; }
+
+.comprehensive_container .left h2 {
+  margin-bottom: 2rem; }
+
+.comprehensive_container .left ul li {
+  margin-bottom: 1.5rem; }
+
+.comprehensive_container .left ul li:before {
+  content: "\2022";
+  color: #89DB7B;
+  font-weight: 800;
+  display: inline-block;
+  width: 1rem;
+  scale: 2; }
+
+.comprehensive_container .left ul li span {
+  font-weight: 800; }
+
+.comprehensive_container .right {
+  width: 40%; }
+
+.comprehensive_container .right div {
+  background-color: #FFD687;
+  border-radius: 55px;
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.comprehensive_container .right div img {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
