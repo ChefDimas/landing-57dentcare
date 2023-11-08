@@ -450,7 +450,27 @@ footer .links div h5 {
 footer .links div a {
   font-weight: 400; }
 
-@media (min-width: 0px) and (max-width: 576px) {
+@media screen and (min-width: 576px) {
+  .free_consultation_container .box .left {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .free_consultation_container .box .right .inputs {
+    grid-template-columns: 1fr; }
+  .free_consultation_container .box .right .inputs input {
+    width: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .free_consultation_container .box .left {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .free_consultation_container .box .right .inputs {
+    grid-template-columns: repeat(2, 1fr); }
+  .free_consultation_container .box .right .inputs input {
+    width: 100%; } }
+
+@media screen and (max-width: 1200px) {
   body {
     padding: 0.5rem;
     margin: 0; }
@@ -495,4 +515,43 @@ footer .links div a {
     margin-top: 1rem; }
   .patient_centred_container .right {
     align-items: center;
-    text-align: center; } }
+    text-align: center; }
+  .comprehensive_container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+  .comprehensive_container .left {
+    width: 100%; }
+  .comprehensive_container .right {
+    width: 100%;
+    padding: 1rem; }
+  .comprehensive_container .right div {
+    height: 100%;
+    position: static; }
+  .comprehensive_container .right div img {
+    min-height: 100%;
+    position: static; }
+  .what_people_container .profile_pic {
+    scale: 1.5; }
+  .what_people_container article {
+    width: 100%; }
+  .free_consultation_container .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem; }
+  .free_consultation_container .box .right {
+    width: 100%; }
+  .free_consultation_container .box .right .inputs {
+    grid-template-columns: 1fr; }
+  .free_consultation_container .box .right .inputs input {
+    width: 100%; }
+  footer {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    align-items: center; }
+  footer .links {
+    grid-template-columns: 1fr;
+    align-items: center; }
+  footer .links div {
+    align-items: center; } }
